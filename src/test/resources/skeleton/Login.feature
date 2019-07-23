@@ -14,7 +14,6 @@ And enter the address
 And enter the security question
 And enter the answer
 Then click register
-And validate the page
 Examples:
 |uname     |
-|mercurrrrrrrrrrryyyyyrruu|
+|darshinijayaram|
