@@ -17,4 +17,4 @@ Then click register
 And validate the page
 Examples:
 |uname     |
-|darshinijaya|
+|darshinijayara|
