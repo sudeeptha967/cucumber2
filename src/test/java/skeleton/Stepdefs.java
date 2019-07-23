@@ -82,9 +82,4 @@ public class Stepdefs {
 	public void click_register() {
 		driver.findElement(By.name("Submit")).click();
 	}
-	@SuppressWarnings("deprecation")
-	@And("validate the page")
-	public void validate_the_page() {
-	    Assert.assertTrue(driver.getTitle().contains("Login"));
-	}
 }
