@@ -14,6 +14,28 @@ And enter the address
 And enter the security question
 And enter the answer
 Then click register
+
 Examples:
-|uname     |
-|darshinijayaram|
+|uname|
+|pratisudee|
+
+ Scenario Outline: login
+   When enter name '<uname>'
+    When enter password '<pswd>'
+    And enter login button
+ 
+   Then validate page
+
+    Examples: 
+      |uname  |pswd       |
+      |lalitha|password123|
+  
+ Scenario: the one where the user moves to cart whithout adding any item in it
+  And search the particular product
+  And try to proceed to payment without adding any item in the cart
+    
+
+
+
+    
+
